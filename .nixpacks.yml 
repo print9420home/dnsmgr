@@ -1,6 +1,5 @@
-# .nixpacks.yml
 providers:
   - php
 
 start:
-  cmd: php think run -p $PORT
+  cmd: php think run -H 0.0.0.0 -p $PORT
