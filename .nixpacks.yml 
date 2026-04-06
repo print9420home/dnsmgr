@@ -1,0 +1,4 @@
+# 使用标准的 PHP 构建，减少内存占用
+build:
+  command: "echo 'Skipping build, using default PHP server'"
+  # 强制指定启动命令，跳过复杂的构建脚本
